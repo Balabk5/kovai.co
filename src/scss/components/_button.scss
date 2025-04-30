@@ -1,0 +1,9 @@
+@import 'abstracts/spacing';
+@import 'abstracts/variables';
+
+.button{
+    background-color: $primary-color;
+    padding: $spacing-sm ;
+    color: $light-color;
+    border-radius: .5rem;
+}

@@ -1,0 +1,12 @@
+@import 'abstracts/spacing';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+.prd-description-card{
+    height: auto;
+    width: auto;
+    padding: $spacing-xl;
+    h1,h2,p{
+        margin-bottom:$spacing-md ;
+    }
+}

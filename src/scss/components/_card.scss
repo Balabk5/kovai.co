@@ -1,0 +1,15 @@
+@import 'abstracts/spacing';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+.product-card{
+    height: auto;
+    width: auto;
+    padding: $spacing-xl;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+    h1,p{
+        margin-bottom:$spacing-md ;
+    }
+}

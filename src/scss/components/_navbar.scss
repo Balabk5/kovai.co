@@ -1,0 +1,25 @@
+@import 'abstracts/spacing';
+@import 'abstracts/variables';
+
+.navbar{
+    height: auto;
+    width: 100%;
+    padding: $spacing-md;
+    display: flex;
+    justify-content: space-between;
+    .nav-links{
+        list-style: none;
+        display: flex;
+        gap: $spacing-xl;
+        li a{
+            text-decoration: none;
+            color: $primary-color;
+        }
+    }
+    @include responsive('sm'){
+        .nav-links{
+            flex-direction: column;
+        }
+    }
+
+}

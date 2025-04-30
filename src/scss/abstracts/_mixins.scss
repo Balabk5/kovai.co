@@ -1,0 +1,7 @@
+@mixin responsive($breakpoint){
+    @if($breakpoint == 'sm'){
+        @media(max-width:578px){
+            @content;
+        }
+}
+}
