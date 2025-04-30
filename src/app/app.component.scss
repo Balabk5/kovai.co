@@ -1,5 +1,8 @@
-@import '../scss/abstracts/variables';
+@import 'abstracts/variables';
+@import 'abstracts/spacing';
+
 
 h1{
     background-color: $primary-color;
+    padding: $spacing-xl $spacing-xl;
 }
